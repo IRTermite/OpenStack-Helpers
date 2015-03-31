@@ -1,7 +1,7 @@
 #!/bin/bash
 # Exporting meta data as file for each image in glance
 
-source ./os_helper_scripts.sh
+source os_helper_vars.sh
 
 mkdir -p $FOLDER_IMAGES_TESTING
 

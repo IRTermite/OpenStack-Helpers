@@ -21,3 +21,4 @@ export AWK_LINUX_ALL="/Cent|cent|Ubuntu|ubuntu|Fedora|fedora|Red_Hat|red_hat|RHE
 export AWK_LINUX_MAIN="/Cent|cent|Ubuntu|ubuntu|Fedora|fedora|Cirros|cirros/"
 export AWK_LINUX_RHEL="/Red_Hat|red_hat|RHEL|rhel/"
 export AWK_WINDOWS="/Win|win|Windows|windows/"
+

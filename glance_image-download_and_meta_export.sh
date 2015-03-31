@@ -2,12 +2,12 @@
 
 # Download Images from Glance and create meta files for the same images
 
-source os_helper_scripts.sh
+source os_helper_vars.sh
 
-mkdir -p $FOLDER_IMAGES_LINUX
-mkdir -p $FOLDER_IMAGES_RHEL
-mkdir -p $FOLDER_IMAGES_WINDOWS
-mkdir -p $FOLDER_IMAGES_TESTING
+mkdir -p "$FOLDER_IMAGES_LINUX"
+mkdir -p "$FOLDER_IMAGES_RHEL"
+mkdir -p "$FOLDER_IMAGES_WINDOWS"
+mkdir -p "$FOLDER_IMAGES_TESTING"
 
 
 #### USE THIS SECTION INSTEAD TO DOWNLOAD ALL TO A SINGLE TEST FOLDER NO SORTING ####
