@@ -38,7 +38,7 @@ mkdir -p "$FOLDER_IMAGES_TESTING"
 ### Meta
 for imagemeta_linux_main in $(glance image-list| awk "$AWK_LINUX_MAIN "'{print $4} ')
 do
-	printf "Exporting meta for glance image-show $imagemeta_linux_main -> $FOLDER_IMAGES_TESTING/$imagemeta_linux_main-$DATE.meta \n"
+	printf "Exporting meta for glance image-show $imagemeta_linux_main -> $FOLDER_IMAGES_MAIN/$imagemeta_linux_main-$DATE.meta \n"
 	glance image-show $imagemeta_linux_main > $FOLDER_IMAGES_LINUX/$imagemeta_linux_main-$DATE.meta
 done
 ### Image
