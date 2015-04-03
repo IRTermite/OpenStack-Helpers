@@ -11,10 +11,10 @@ export FOLDER_IMAGES_WINDOWS="$HOME/Downloads/RPC-Images/Images_Windows"
 export FOLDER_IMAGES_TESTING="$HOME/Downloads/RPC-Images/Images_Testing"
 
 # Swift / Cloud Files Containers
-export CF_CONTAINER_IMAGES_LINUX=
-export CF_CONTAINER_IMAGES_RHEL=
-export CF_CONTAINER_IMAGES_WINDOWS=
-export CF_CONTAINER_IMAGES_TESTING=
+export CF_CONTAINER_IMAGES_LINUX="images_linux"
+export CF_CONTAINER_IMAGES_RHEL="images_rhel"
+export CF_CONTAINER_IMAGES_WINDOWS="images_windows"
+export CF_CONTAINER_IMAGES_TESTING="images_test"
 
 # AWK helpers
 export AWK_LINUX_ALL="/Cent|cent|Ubuntu|ubuntu|Fedora|fedora|Red_Hat|red_hat|RHEL|rhel|Cirros|cirros|Debian|debian|Deb|deb|Fedora|fedora/"
